@@ -8,7 +8,6 @@ while (i < n):
     i += 1
 print("Array:")
 i = 0
-while (i < n):
+for i in range(n):
     print(arr[i], end = " ")
-    i += 1
 print("")
